@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
-function Header() {
+function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
   return (
@@ -9,7 +9,7 @@ function Header() {
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
           <Link href="/" className="nav-links" onClick={handleClick}>
-            Home
+            Logo
           </Link>
         </li>
         <li>
@@ -89,4 +89,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;

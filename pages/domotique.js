@@ -1,11 +1,14 @@
 import React from 'react';
-import Header from './components/header';
+import NavBar from './components/nav-bar';
+import styles from '../styles/Home.module.css';
 
 function domotique() {
   return (
     <div>
-      <Header />
-      <h1>domotique</h1>
+      <NavBar />
+      <main className={styles.main}>
+        <h1>domotique</h1>
+      </main>
     </div>
   );
 }
