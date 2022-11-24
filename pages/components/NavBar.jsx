@@ -1,17 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import React, { useState } from 'react';
-import NavItem from './NavItem';
 import styles from './NavBar.module.css';
-import { PRERENDER_REVALIDATE_ONLY_GENERATED_HEADER } from 'next/dist/server/api-utils';
 
-const MENU_LIST = [
-  { text: 'Climatisation', href: '/climatisation' },
-  { text: 'Domotique', href: '/domotique' },
-  { text: 'Electricité', href: '/electricite' },
-  { text: 'Contact', href: '/contact' },
-];
 const Navbar = () => {
+  const [isActive, setActive] = useState(false);
+  const toggleClass = (e) => {
+    setActive(!isActive);
+  };
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -28,7 +24,10 @@ const Navbar = () => {
         <div className={styles.main_navlinks}>
           {/* menu hamburger */}
           <button
-            className={styles.hamburger}
+            onClick={toggleClass}
+            className={
+              isActive ? styles.hamburger + ' ' + styles.open : styles.hamburger
+            }
             type="button"
             aria-label="Toggle navigation"
             aria-expanded="false"
@@ -48,6 +47,9 @@ const Navbar = () => {
             </Link>
             <Link href={'/domotique'} aria-label="domotique">
               Domotique
+            </Link>
+            <Link href={'/realisation'} aria-label="Nos réalisations">
+              Nos Réalisations
             </Link>
           </div>
         </div>
