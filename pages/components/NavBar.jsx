@@ -5,6 +5,7 @@ import styles from './NavBar.module.css';
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
+
   const toggleClass = (e) => {
     setActive(!isActive);
   };
@@ -30,7 +31,7 @@ const Navbar = () => {
             }
             type="button"
             aria-label="Toggle navigation"
-            aria-expanded="false"
+            aria-expanded={isActive ? 'true' : 'false'}
           >
             {/*barres pour le menu hamburger*/}
             <span></span>
@@ -38,7 +39,13 @@ const Navbar = () => {
             <span></span>
           </button>
           {/*liens de navigation */}
-          <div className={styles.navlinks_container}>
+          <div
+            className={
+              isActive
+                ? styles.navlinks_container + ' ' + styles.open
+                : styles.navlinks_container
+            }
+          >
             <Link href={'/climatisation'} aria-label="climatisation">
               Climatisation
             </Link>
