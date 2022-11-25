@@ -107,6 +107,12 @@
   margin-left: 0.5rem;
 }
 
+.canvas {
+  position: fixed;
+  top: 25px;
+  height: 800px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

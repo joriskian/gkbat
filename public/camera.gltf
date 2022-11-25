@@ -1,0 +1,248 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.6.16",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0, 1, 2]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "base",
+      "rotation": [0.7071068286895752, 0, 0, 0.7071067094802856],
+      "translation": [
+        0.04439282417297363, 0.21327972412109375, 0.19759654998779297
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "camera",
+      "rotation": [0.7071068286895752, 0, 0, 0.7071067094802856],
+      "translation": [
+        -16.16048240661621, 4.251682281494141, -0.06127738952636719
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "socle",
+      "rotation": [0.7071068286895752, 0, 0, 0.7071067094802856],
+      "translation": [
+        -16.16048240661621, 4.251682281494141, -0.06127786636352539
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material__6",
+      "pbrMetallicRoughness": {
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object001.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Object001.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Object001.006",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    }
+  ],
+
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1254,
+      "max": [0.5813000202178955, 6.456500053405762, 6.203398704528809],
+      "min": [-18.346200942993164, -6.456500053405762, -6.203401565551758],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1254,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1254,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 4338,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1446,
+      "max": [12.248875617980957, 13.77407455444336, 1.4802017211914062],
+      "min": [-16.17792510986328, -19.164024353027344, -15.232799530029297],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 1446,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 1446,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 3654,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "max": [4.1998748779296875, 4.187374591827393, 0.6574020385742188],
+      "min": [-4.199826240539551, -4.1873250007629395, -0.6573982238769531],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 15048,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 15048,
+      "byteOffset": 15048
+    },
+    {
+      "buffer": 0,
+      "byteLength": 10032,
+      "byteOffset": 30096
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8676,
+      "byteOffset": 40128
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17352,
+      "byteOffset": 48804
+    },
+    {
+      "buffer": 0,
+      "byteLength": 17352,
+      "byteOffset": 66156
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11568,
+      "byteOffset": 83508
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7308,
+      "byteOffset": 95076
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 102384
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 102672
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 102960
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 103152
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 103224,
+      "uri": "camera.bin"
+    }
+  ]
+}
