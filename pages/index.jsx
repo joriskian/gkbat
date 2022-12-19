@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GK-BAT - l'éléctricité sur la region Lilloise</title>
+        <title>GK-BAT - l&aposéléctricité sur la region Lilloise</title>
         <meta charSet="utf-8" />
         <meta
           name="viewport"
@@ -67,8 +67,8 @@ export default function Home() {
             </div>
           </h2>
           <p>
-            Pour l'installation électrique de la maison ou l'équipement
-            domotique, l'équipe GKBAT est à votre service.
+            Pour l&aposinstallation électrique de la maison ou l&aposéquipement
+            domotique, l&aposéquipe GKBAT est à votre service.
           </p>
           <p>
             Installé à Wambrechies, à proximité de Lille,{' '}
@@ -78,13 +78,14 @@ export default function Home() {
           </p>
 
           <p>
-            Vous souhaitez faire appel à une entreprise d'électricité générale ?
+            Vous souhaitez faire appel à une entreprise d&apos électricité
+            générale ?
           </p>
           <p>
-            Qu'il s'agisse d'une installation neuve, d'une mise en conformité ou
-            d'un dépannage, GKBAT répond à vos besoins ! Votre artisan
-            électricien vous propose son savoir-faire dans les domaines suivants
-            :
+            Qu&aposil s&aposagisse d&aposune installation neuve, d&aposune mise
+            en conformité ou d&aposun dépannage, GKBAT répond à vos besoins !
+            Votre artisan électricien vous propose son savoir-faire dans les
+            domaines suivants :
           </p>
         </div>
         <nav>
