@@ -1,13 +1,16 @@
 .container {
-  position: relative;
-  top: auto;
+  /* position: relative;
+  top: auto; */
   height: 100%;
 }
+
 .main {
   height: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(240, 248, 255, 0.24);
 }
 .main h1 {
   color: brown;
@@ -15,6 +18,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-around;
 }
 .main h2 {
   color: hsl(53, 69%, 51%);

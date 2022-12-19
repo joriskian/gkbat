@@ -1,0 +1,51 @@
+.formContainer h1 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.formulaire {
+  background-color: #f0b1b1;
+  padding: 30px;
+  border-radius: 15px;
+  width: 60vw;
+  margin: auto;
+}
+.names {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.text {
+  margin-top: 1rem;
+}
+.formulaire label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  /* pour pouvoir ajouter des marges : */
+  display: inline-block;
+}
+
+.formulaire input {
+  padding: 0.8rem;
+  border: 1px solid silver;
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+.formulaire textarea {
+  width: 100%;
+  border-radius: 8px;
+  padding: 0.8rem;
+}
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+.button button {
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-top: 0.8rem;
+  border: solid 2px rgb(109, 106, 106);
+}

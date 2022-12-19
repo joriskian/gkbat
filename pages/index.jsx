@@ -9,50 +9,111 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GK-BAT</title>
-        <meta name="description" content="Electricity in Lille and around" />
+        <title>GK-BAT - l'éléctricité sur la region Lilloise</title>
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          // plein ecran pour les portables
+          content="width=device-width, initial-scale=1.0"
+        />
+        <meta
+          name="description"
+          content="éléctricité sur Lille et les environs"
+        />
         <link rel="icon" href="/logo.ico" />
       </Head>
       <NavBar className={'styles.navBar'} />
 
       <main className={styles.main}>
-        <h1>GKBAT</h1>
-        <h2>Artisan électricien et spécialiste en domotique à Wambrechies</h2>
-        <p>
-          Pour l'installation électrique de la maison ou l'équipement domotique,
-          l'équipe GKBAT est à votre service.
-        </p>
-        <p>
-          Installé à Wambrechies à proximité de Lille, GKBAT Wambrechies met à
-          votre disposition son savoir-faire et ses compétences pour vous
-          assurer des réalisations de qualité.
-        </p>
+        <div
+          id="elec"
+          className="container"
+          itemScope
+          itemType="https://schema.org/Electrician"
+        >
+          <h1 itemProp="name">GKBAT</h1>
+          <h2>
+            Artisan électricien et spécialiste en domotique à
+            <div
+              itemProp="location"
+              itemScope
+              itemType="https://schema.org/Place"
+            >
+              <div
+                itemProp="geo"
+                itemScope
+                itemType="https://schema.org/GeoCircle"
+              >
+                <div
+                  itemProp="geoMidpoint"
+                  itemScope
+                  itemType="https://schema.org/GeoCoordinates"
+                >
+                  <meta itemProp="latitude" content="50.687949" />
+                  <meta itemProp="longitude" content="3.040141" />
+                </div>
+                <meta itemProp="geoRadius" content="30000" />
+              </div>
+            </div>
+            <div
+              itemProp="location"
+              itemScope
+              itemType="https://schema.org/PostalAddress"
+            >
+              <span itemProp="addressLocality">Wambrechies</span>
+              <span itemProp="postalCode">
+                <div style={{ display: ' none' }}>59118</div>
+              </span>
+            </div>
+          </h2>
+          <p>
+            Pour l'installation électrique de la maison ou l'équipement
+            domotique, l'équipe GKBAT est à votre service.
+          </p>
+          <p>
+            Installé à Wambrechies, à proximité de Lille,{' '}
+            <span itemProp="name">GKBAT</span> met à votre disposition son
+            savoir-faire et ses compétences pour vous assurer des réalisations
+            de qualité.
+          </p>
 
-        <p>
-          Vous souhaitez faire appel à une entreprise d'électricité générale ?
-        </p>
-        <p>
-          Qu'il s'agisse d'une installation neuve, d'une mise en conformité ou
-          d'un dépannage, GKBAT répond à vos besoins ! Votre artisan électricien
-          vous propose son savoir-faire dans les domaines suivants :
-        </p>
-        <ul className={styles.liste}>
-          <li>
-            <Link href={'/domotique'}>Domotique</Link>
-          </li>
-          <li>
-            <Link href={'/climatisation'}>Climatisation</Link>
-          </li>
-          <li>
-            <Link href={'/electricite'}>Eléctricité</Link>
-          </li>
-          <li>
-            <Link href={'/depannage'}>Installation/depannage de chaudière</Link>
-          </li>
-          <li>
-            <Link href={'/renovation'}>Rénovation générale</Link>
-          </li>
-        </ul>
+          <p>
+            Vous souhaitez faire appel à une entreprise d'électricité générale ?
+          </p>
+          <p>
+            Qu'il s'agisse d'une installation neuve, d'une mise en conformité ou
+            d'un dépannage, GKBAT répond à vos besoins ! Votre artisan
+            électricien vous propose son savoir-faire dans les domaines suivants
+            :
+          </p>
+        </div>
+        <nav>
+          <ul className={styles.liste}>
+            <li>
+              <Link
+                href={'/domotique'}
+                aria-label="Domotique"
+                title="Domotique"
+              >
+                Domotique
+              </Link>
+            </li>
+            <li>
+              <Link href={'/climatisation'}>Climatisation</Link>
+            </li>
+            <li>
+              <Link href={'/electricite'}>Eléctricité</Link>
+            </li>
+            <li>
+              <Link href={'/depannage'}>
+                Installation/depannage de chaudière
+              </Link>
+            </li>
+            <li>
+              <Link href={'/renovation'}>Rénovation générale</Link>
+            </li>
+          </ul>
+        </nav>
         <Image
           width="250"
           height="250"

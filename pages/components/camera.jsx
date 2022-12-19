@@ -12,19 +12,24 @@ const Model = (props) => {
       position={[-160, 10, -200]}
       rotation={[0, 0.75, 0]}
     >
+      <PerspectiveCamera
+        makeDefault={true}
+        position={[50, 0, 200]}
+        castShadow
+      />
       <group
         position={[24.96, -10.09, 226.86]}
         rotation={[1.53, 0, 0]}
         scale={0}
       >
-        <PerspectiveCamera
-          makeDefault={false}
-          far={1000}
+        {/* <PerspectiveCamera
+          makeDefault={true}
+          far={100}
           near={0.1}
-          fov={22.9}
-          rotation={[0, 0, 0]}
+          fov={250}
+          position={[-1, 0, 1]}
           castShadow
-        />
+        /> */}
       </group>
       <mesh
         castShadow
