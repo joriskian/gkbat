@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import NavBar from './components/NavBar';
+import NavBar from './components/navBar';
 import styles from '../styles/Home.module.css';
 import Footer from './components/footer';
 
@@ -12,11 +12,9 @@ function electricite() {
         <meta name="description" content="Electricity in Lille and around" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <NavBar />
       <main className={styles.main}>
         <h1>electricite</h1>
       </main>
-      <Footer />
     </div>
   );
 }

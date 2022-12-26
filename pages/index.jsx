@@ -1,15 +1,14 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import NavBar from './components/NavBar';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-import Footer from './components/footer';
+
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>GK-BAT - l&aposéléctricité sur la region Lilloise</title>
+        <title>GK-BAT - l&apos;éléctricité sur la region Lilloise</title>
         <meta charSet="utf-8" />
         <meta
           name="viewport"
@@ -22,7 +21,7 @@ export default function Home() {
         />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <NavBar className={'styles.navBar'} />
+      
 
       <main className={styles.main}>
         <div
@@ -33,7 +32,7 @@ export default function Home() {
         >
           <h1 itemProp="name">GKBAT</h1>
           <h2>
-            Artisan électricien et spécialiste en domotique à
+            Artisan électricien et spécialiste<br/> en domotique et climatisation à
             <div
               itemProp="location"
               itemScope
@@ -67,23 +66,25 @@ export default function Home() {
             </div>
           </h2>
           <p>
-            Pour l&aposinstallation électrique de la maison ou l&aposéquipement
-            domotique, l&aposéquipe GKBAT est à votre service.
+            Pour l&apos;installation électrique de la maison ou l&apos;équipement
+            domotique, l&apos;équipe GKBAT est à votre service.
           </p>
           <p>
             Installé à Wambrechies, à proximité de Lille,{' '}
             <span itemProp="name">GKBAT</span> met à votre disposition son
             savoir-faire et ses compétences pour vous assurer des réalisations
-            de qualité.
+            de qualitées.
           </p>
 
           <p>
-            Vous souhaitez faire appel à une entreprise d&apos électricité
+            Vous souhaitez faire appel à une entreprise d&apos;électricité
             générale ?
           </p>
           <p>
-            Qu&aposil s&aposagisse d&aposune installation neuve, d&aposune mise
-            en conformité ou d&aposun dépannage, GKBAT répond à vos besoins !
+            Qu&apos;il s&apos;agisse d&apos;une installation neuve, d&apos;une mise
+            en conformité ou d&apos;un dépannage, GKBAT répond à vos besoins !
+          </p>
+          <p>
             Votre artisan électricien vous propose son savoir-faire dans les
             domaines suivants :
           </p>
@@ -176,7 +177,7 @@ export default function Home() {
         </p>
       </main>
 
-      <Footer />
+
     </div>
   );
 }

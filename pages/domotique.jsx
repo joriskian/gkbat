@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import NavBar from './components/NavBar';
+import NavBar from './components/navBar';
 import Footer from './components/footer';
 import styles from '../styles/Home.module.css';
 /** importing 3D */
@@ -15,7 +15,7 @@ function domotique() {
         <meta name="description" content="Climatisation in Lille and around" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <NavBar />
+
       <main className={styles.main}>
         <Camera />
         {/* <Test3D /> */}
@@ -147,7 +147,7 @@ function domotique() {
           excepturi ut veniam ab amet vero unde culpa.
         </p>
       </main>
-      <Footer />
+
     </div>
   );
 }

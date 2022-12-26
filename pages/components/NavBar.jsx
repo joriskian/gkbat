@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import styles from './NavBar.module.css';
 
-const Navbar = () => {
+const NavBar = () => {
   const [isActive, setActive] = useState(false);
 
   const toggleClass = (e) => {
@@ -76,4 +76,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavBar;
