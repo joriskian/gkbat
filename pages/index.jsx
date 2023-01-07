@@ -3,7 +3,6 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 import Image from 'next/image';
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -21,9 +20,8 @@ export default function Home() {
         />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      
 
-      <main className={styles.main}>
+      <main className={styles.body}>
         <div
           id="elec"
           className="container"
@@ -32,42 +30,45 @@ export default function Home() {
         >
           <h1 itemProp="name">GKBAT</h1>
           <h2>
-            Artisan électricien et spécialiste<br/> en domotique et climatisation à
+            Artisan électricien et spécialiste
+            <br /> en domotique et climatisation à
+          </h2>
+          <div
+            itemProp="location"
+            itemScope
+            itemType="https://schema.org/Place"
+          >
             <div
-              itemProp="location"
+              itemProp="geo"
               itemScope
-              itemType="https://schema.org/Place"
+              itemType="https://schema.org/GeoCircle"
             >
               <div
-                itemProp="geo"
+                itemProp="geoMidpoint"
                 itemScope
-                itemType="https://schema.org/GeoCircle"
+                itemType="https://schema.org/GeoCoordinates"
               >
-                <div
-                  itemProp="geoMidpoint"
-                  itemScope
-                  itemType="https://schema.org/GeoCoordinates"
-                >
-                  <meta itemProp="latitude" content="50.687949" />
-                  <meta itemProp="longitude" content="3.040141" />
-                </div>
-                <meta itemProp="geoRadius" content="30000" />
+                <meta itemProp="latitude" content="50.687949" />
+                <meta itemProp="longitude" content="3.040141" />
               </div>
+              <meta itemProp="geoRadius" content="30000" />
             </div>
-            <div
-              itemProp="location"
-              itemScope
-              itemType="https://schema.org/PostalAddress"
-            >
-              <span itemProp="addressLocality">Wambrechies</span>
-              <span itemProp="postalCode">
-                <div style={{ display: ' none' }}>59118</div>
-              </span>
-            </div>
-          </h2>
+          </div>
+          <div
+            itemProp="location"
+            itemScope
+            itemType="https://schema.org/PostalAddress"
+          >
+            <h2 itemProp="addressLocality">Wambrechies</h2>
+            <span itemProp="postalCode">
+              <div style={{ display: ' none' }}>59118</div>
+            </span>
+          </div>
+
           <p>
-            Pour l&apos;installation électrique de la maison ou l&apos;équipement
-            domotique, l&apos;équipe GKBAT est à votre service.
+            Pour l&apos;installation électrique de la maison ou
+            l&apos;équipement domotique, l&apos;équipe GKBAT est à votre
+            service.
           </p>
           <p>
             Installé à Wambrechies, à proximité de Lille,{' '}
@@ -81,8 +82,9 @@ export default function Home() {
             générale ?
           </p>
           <p>
-            Qu&apos;il s&apos;agisse d&apos;une installation neuve, d&apos;une mise
-            en conformité ou d&apos;un dépannage, GKBAT répond à vos besoins !
+            Qu&apos;il s&apos;agisse d&apos;une installation neuve, d&apos;une
+            mise en conformité ou d&apos;un dépannage, GKBAT répond à vos
+            besoins !
           </p>
           <p>
             Votre artisan électricien vous propose son savoir-faire dans les
@@ -176,8 +178,6 @@ export default function Home() {
           fuga modi quae voluptatibus amet minus quod.
         </p>
       </main>
-
-
     </div>
   );
 }

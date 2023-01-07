@@ -11,7 +11,7 @@
   height: 100%;
 }
 
-.main {
+.bodies {
   height: 100%;
   position: relative;
   display: flex;
@@ -20,7 +20,7 @@
   background-color: rgba(240, 248, 255, 0.24);
   font-family: 'Roboto', sans-serif;
 }
-.main h1 {
+.bodies h1 {
   color: rgb(0, 0, 0);
   margin-top: 1rem;
   display: flex;
@@ -31,7 +31,7 @@
   /* font-family: 'Rubik 80s Fade', cursive; */
   font-family: 'Roboto', sans-serif;
 }
-.main h2 {
+.bodies h2 {
   color: hsl(53, 69%, 51%);
   margin-top: 1rem;
   padding: 0 1rem;
@@ -39,24 +39,24 @@
   /* font-family: 'Rubik Vinyl', cursive; */
   font-family: 'Roboto', sans-serif;
 }
-.main p {
+.bodies p {
   color: #193333;
   padding: 1rem 4rem;
   text-align: center;
 }
-.main div {
+.bodies div {
   margin: 0 2vw;
 }
-.main div ul {
+.bodies div ul {
   margin-left: 2rem;
 }
-.main h1 + p {
+.bodies h1 + p {
   margin-top: 1rem;
 }
-.main img {
+.bodies img {
   margin: 2rem;
 }
-.main:last-child {
+.bodies:last-child {
   margin-bottom: 10vh;
 }
 .liste > li {

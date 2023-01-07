@@ -21,6 +21,7 @@ export default function Footer() {
       >
         <span>Administration</span>
       </Link>
+      <span>Tél : 06 66 73 58 01</span>
     </footer>
   );
 }
