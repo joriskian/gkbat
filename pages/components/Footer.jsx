@@ -12,7 +12,7 @@ export default function Footer() {
         <span>Mentions Légales</span>
       </Link>
       <Link href={'/plan'} aria-label="Plan du site" title="Plan du site">
-        <span>Plan du Site - Tél : 06 66 73 58 01</span>
+        <span>Plan du Site</span>
       </Link>
       <Link
         href={'/administration'}

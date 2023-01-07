@@ -60,9 +60,9 @@ export default function Home() {
             itemType="https://schema.org/PostalAddress"
           >
             <h2 itemProp="addressLocality">Wambrechies</h2>
-            <span itemProp="postalCode">
+            <div itemProp="postalCode">
               <div style={{ display: ' none' }}>59118</div>
-            </span>
+            </div>
           </div>
 
           <p>
@@ -125,58 +125,7 @@ export default function Home() {
           alt="1er image"
           src={'/elec.jpg'}
         />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis
-          temporibus, fuga neque incidunt ab rem corrupti laudantium iste amet
-          voluptatum quae sequi labore perspiciatis itaque, reprehenderit
-          nostrum possimus accusamus cupiditate. At, fugiat minus. Totam sunt
-          incidunt, veritatis nisi id fugiat? Ea ipsum porro, odio consectetur
-          sit quos laudantium culpa. Mollitia quae tenetur eligendi hic alias.
-          Voluptatem fugiat similique doloremque reprehenderit? Dolorum quasi
-          quod eius libero! Provident, quaerat. Temporibus ad aperiam
-          consequuntur dolore dolorum reiciendis voluptatem molestias debitis
-          sunt odit, eum quidem ab et explicabo magnam deleniti minus quo nihil
-          magni. Dolor voluptatibus atque provident, ea illo impedit
-          reprehenderit libero, a nihil incidunt aut aperiam, enim qui veniam.
-          Ullam non quod maxime eius doloremque. Tempora, commodi facilis
-          impedit dolores quas veniam. Veniam nobis tempore earum cupiditate
-          dolore asperiores culpa nemo, quaerat enim placeat error obcaecati.
-          Dolorem ad doloremque fugiat officia magni, quisquam sit sint eos
-          perferendis velit nostrum excepturi quas quis? Corrupti necessitatibus
-          libero, voluptates quisquam aliquid dignissimos officia laudantium
-          illum ipsa quidem qui incidunt, accusamus impedit! Quasi quibusdam,
-          officia, dolores autem error iusto neque culpa modi molestiae magni
-          iste quo. Recusandae ut eaque nihil minima quidem laboriosam voluptas
-          culpa delectus cumque saepe. Veritatis dicta porro velit nesciunt,
-          deserunt modi sapiente iure non fuga sit tempore praesentium
-          accusamus! Suscipit, commodi alias? Cupiditate quas cum quidem placeat
-          hic voluptatem, incidunt iusto ipsa voluptatibus nisi rerum quam quos
-          accusamus cumque distinctio ut dolorem, recusandae quo voluptatum
-          itaque! Accusamus exercitationem quisquam iusto veniam fuga. Provident
-          eos quas nobis porro rerum, voluptatibus nostrum fugit laborum, magnam
-          quasi harum excepturi laudantium veritatis nihil consectetur, nulla
-          enim? Voluptatum quisquam quod laboriosam repudiandae? Voluptate, fuga
-          in? Quidem, iure? Aliquid commodi ipsam harum quo. Ullam sit, at ad
-          fugit velit saepe ipsam eveniet similique, cupiditate voluptatum
-          quibusdam qui vero! Quo fugiat laborum minus in officia, molestiae vel
-          consequuntur consequatur! Aliquam vitae veritatis ab eveniet aperiam,
-          est impedit saepe tenetur placeat nam ratione atque minus
-          exercitationem necessitatibus, quae facilis maiores minima dolore
-          corrupti. Rem voluptatem porro itaque quaerat quis. Ducimus. Amet cum
-          corrupti odio atque alias, repudiandae provident natus aspernatur et
-          iure voluptatibus deserunt aliquam quos voluptatum soluta officiis.
-          Ipsam voluptatibus at in corporis suscipit vero aut commodi non omnis.
-          Quibusdam non, assumenda possimus aut ut error! Optio assumenda modi
-          aliquam obcaecati mollitia voluptatibus. Ea odio, dolores rerum
-          inventore, quidem voluptatibus saepe nemo vitae iusto, sit sint facere
-          fugit totam. Asperiores blanditiis odio soluta? Nobis voluptas,
-          incidunt consequatur dicta quaerat cumque, nihil architecto asperiores
-          porro dolore eum nostrum facere ex iure deleniti! Possimus rerum
-          aspernatur ipsa expedita in id nisi. Modi voluptatum quidem, veritatis
-          illo quae impedit iure hic eaque delectus perferendis quaerat aliquid,
-          molestias, vero fuga tempora labore. Magnam ipsam vitae dignissimos
-          fuga modi quae voluptatibus amet minus quod.
-        </p>
+        <p>Pour nous joindre au téléphone : 06 66 73 58 01</p>
       </div>
     </div>
   );
