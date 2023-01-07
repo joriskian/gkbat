@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/logo.ico" />
       </Head>
 
-      <main className={styles.body}>
+      <main className={styles.bodies}>
         <div
           id="elec"
           className="container"
