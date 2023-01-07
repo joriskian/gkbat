@@ -16,7 +16,7 @@ function climatisation() {
         <link rel="icon" href="/logo.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         {/* <Test3D /> */}
         <h1 itemScope itemType="https://schema.org/HVACBusiness">
           climatisation
@@ -24,7 +24,7 @@ function climatisation() {
         <div className={styles.artContainer}>
           <p>Site en construction.....</p>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

@@ -10,10 +10,10 @@ function electricite() {
         <meta name="description" content="Electricity in Lille and around" />
         <link rel="icon" href="/logo.ico" />
       </Head>
-      <main className={styles.main}>
+      <div className={styles.main}>
         <h1>electricite</h1>
         <p>En developpement....</p>
-      </main>
+      </div>
     </div>
   );
 }

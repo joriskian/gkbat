@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/logo.ico" />
       </Head>
 
-      <main className={styles.bodies}>
+      <div className={styles.main}>
         <div
           id="elec"
           className="container"
@@ -177,7 +177,7 @@ export default function Home() {
           molestias, vero fuga tempora labore. Magnam ipsam vitae dignissimos
           fuga modi quae voluptatibus amet minus quod.
         </p>
-      </main>
+      </div>
     </div>
   );
 }

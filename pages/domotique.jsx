@@ -14,7 +14,7 @@ function domotique() {
         <link rel="icon" href="/logo.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <div className={styles.main}>
         <Camera />
         {/* <Test3D /> */}
         <h1>domotique</h1>
@@ -103,7 +103,7 @@ function domotique() {
           optio. Laboriosam hic in omnis, voluptatem expedita illo alias
           excepturi ut veniam ab amet vero unde culpa.
         </p>
-      </main>
+      </div>
     </div>
   );
 }
