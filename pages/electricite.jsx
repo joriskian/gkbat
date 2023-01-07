@@ -12,6 +12,7 @@ function electricite() {
       </Head>
       <main className={styles.main}>
         <h1>electricite</h1>
+        <p>En developpement....</p>
       </main>
     </div>
   );

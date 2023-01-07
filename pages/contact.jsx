@@ -48,7 +48,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact | Mon Super Projet SendGrid</title>
+        <title>Contact | Nous joindre</title>
       </Head>
       <div className={styles.formContainer}>
         <h1>Contact</h1>
