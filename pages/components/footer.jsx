@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <Link
@@ -24,5 +24,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;
