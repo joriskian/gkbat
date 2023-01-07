@@ -1,11 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import NavBar from './components/navBar';
-import Footer from './components/footer';
+
 import styles from '../styles/Home.module.css';
 /** importing 3D */
 import Camera from './components/camera';
-import Test3D from './components/test3D';
 
 function domotique() {
   return (
@@ -147,7 +145,6 @@ function domotique() {
           excepturi ut veniam ab amet vero unde culpa.
         </p>
       </main>
-
     </div>
   );
 }
