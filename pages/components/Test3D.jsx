@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import React, { Suspense } from 'react';
 import { OrbitControls, useGLTF } from '@react-three/drei';
-import styles from './test3D.module.css';
+import styles from './Test3D.module.css';
 
 const Model = (props) => {
   const { nodes, materials } = useGLTF('/test.glb');

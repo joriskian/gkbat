@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber';
 import React, { Suspense, useEffect, useState } from 'react';
 import { useGLTF, PerspectiveCamera } from '@react-three/drei';
-import styles from './camera.module.css';
+import styles from './Camera.module.css';
 
 const Model = (props) => {
   const { nodes, materials } = useGLTF('/camera.glb');
