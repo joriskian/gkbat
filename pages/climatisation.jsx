@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 
 import styles from '../styles/Home.module.css';
-import Test3D from './components/test3D';
+import Test3D from './components/Test3D';
 
 function climatisation() {
   return (

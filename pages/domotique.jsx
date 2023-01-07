@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import styles from '../styles/Home.module.css';
 /** importing 3D */
-import Camera from './components/camera';
+import Camera from './components/Camera';
 
 function domotique() {
   return (
