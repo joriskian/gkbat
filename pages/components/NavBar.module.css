@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 /* test police */
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
 
@@ -10,6 +10,8 @@
   padding: 15px 25px;
   background: #fafafa;
   box-shadow: inset 0px -1px 0px #c5c5c6;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'Rubik Gemstones', cursive; */
 }
 
 .nav_icon {
@@ -22,6 +24,7 @@
   font-size: 25px;
   margin-left: 10px;
   font-weight: 400;
+  font-family: 'Rubik Gemstones', cursive;
 }
 .nav_icon img {
   width: 40px;
