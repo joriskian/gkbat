@@ -16,7 +16,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="éléctricité sur Lille et les environs"
+          content="éléctricité et climatisation sur Wambrechies et les environs"
         />
         <link rel="icon" href="/logo.ico" />
       </Head>
@@ -30,40 +30,40 @@ export default function Home() {
         >
           <h1 itemProp="name">GKBAT</h1>
           <h2>
-            Artisan électricien et spécialiste
+            Artisan électricien spécialiste
             <br /> en domotique et climatisation à
-          </h2>
-          <div
-            itemProp="location"
-            itemScope
-            itemType="https://schema.org/Place"
-          >
-            <div
-              itemProp="geo"
+            <span
+              itemProp="location"
               itemScope
-              itemType="https://schema.org/GeoCircle"
+              itemType="https://schema.org/Place"
             >
-              <div
-                itemProp="geoMidpoint"
+              <span
+                itemProp="geo"
                 itemScope
-                itemType="https://schema.org/GeoCoordinates"
+                itemType="https://schema.org/GeoCircle"
               >
-                <meta itemProp="latitude" content="50.687949" />
-                <meta itemProp="longitude" content="3.040141" />
-              </div>
-              <meta itemProp="geoRadius" content="30000" />
+                <span
+                  itemProp="geoMidpoint"
+                  itemScope
+                  itemType="https://schema.org/GeoCoordinates"
+                >
+                  <meta itemProp="latitude" content="50.687949" />
+                  <meta itemProp="longitude" content="3.040141" />
+                </span>
+                <meta itemProp="geoRadius" content="30000" />
+              </span>
+            </span>
+            <div
+              itemProp="location"
+              itemScope
+              itemType="https://schema.org/PostalAddress"
+            >
+              <span itemProp="addressLocality">Wambrechies</span>
+              <span itemProp="postalCode">
+                <span style={{ display: ' none' }}>59118</span>
+              </span>
             </div>
-          </div>
-          <div
-            itemProp="location"
-            itemScope
-            itemType="https://schema.org/PostalAddress"
-          >
-            <h2 itemProp="addressLocality">Wambrechies</h2>
-            <div itemProp="postalCode">
-              <div style={{ display: ' none' }}>59118</div>
-            </div>
-          </div>
+          </h2>
 
           <p>
             Pour l&apos;installation électrique de la maison ou
@@ -103,18 +103,40 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href={'/climatisation'}>Climatisation</Link>
+              <Link
+                href={'/climatisation'}
+                aria-label="climatisation"
+                title="Climatisation"
+              >
+                Climatisation
+              </Link>
             </li>
             <li>
-              <Link href={'/electricite'}>Eléctricité</Link>
+              <Link
+                href={'/electricite'}
+                aria-label="électricité"
+                title="Eléctricité"
+              >
+                Eléctricité
+              </Link>
             </li>
             <li>
-              <Link href={'/depannage'}>
+              <Link
+                href={'/depannage'}
+                aria-label="dépannage"
+                title="Dépannage"
+              >
                 Installation/depannage de chaudière
               </Link>
             </li>
             <li>
-              <Link href={'/renovation'}>Rénovation générale</Link>
+              <Link
+                href={'/renovation'}
+                aria-label="renovation"
+                title="renovation"
+              >
+                Rénovation générale
+              </Link>
             </li>
           </ul>
         </nav>

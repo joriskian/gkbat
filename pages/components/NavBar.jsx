@@ -9,6 +9,10 @@ const NavBar = () => {
   const toggleClass = (e) => {
     setActive(!isActive);
   };
+  const closeMenu = (e) => {
+    setActive(false);
+  };
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -17,6 +21,7 @@ const NavBar = () => {
           aria-label="visit homepage"
           aria-current="page"
           className={styles.nav_icon}
+          onClick={closeMenu}
           title="HomePage"
         >
           <Image width="40" height="40" src="/logo.svg" alt="logo gk-bat" />
@@ -40,6 +45,7 @@ const NavBar = () => {
           </button>
           {/*liens de navigation */}
           <div
+            onClick={toggleClass}
             className={
               isActive
                 ? styles.navlinks_container + ' ' + styles.open
@@ -61,7 +67,7 @@ const NavBar = () => {
           </div>
         </div>
         {/*`contact button`*/}
-        <div className={styles.contact} title="Contact">
+        <div className={styles.contact} onClick={closeMenu} title="Contact">
           <Link href={'/contact'} aria-label="contact">
             <Image
               width={'40'}

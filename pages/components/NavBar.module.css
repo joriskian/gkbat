@@ -24,7 +24,8 @@
   font-size: 25px;
   margin-left: 10px;
   font-weight: 400;
-  font-family: 'Rubik Gemstones', cursive;
+  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Rubik Gemstones', cursive; */
 }
 .nav_icon img {
   width: 40px;
