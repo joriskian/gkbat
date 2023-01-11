@@ -147,6 +147,7 @@ export default function Home() {
           placeholder="empty"
           alt="1er image"
           src={'/imgs/installateur-domotique-wambrechies_2.jpg'}
+          priority="true"
         />
         <p>Pour nous joindre au téléphone : 06 66 73 58 01</p>
       </div>

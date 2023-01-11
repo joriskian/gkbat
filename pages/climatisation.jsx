@@ -9,13 +9,13 @@ function climatisation() {
   const areaServedData = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: 'Climatisation Hauts de France',
+    name: 'Installateur de climatisation à Wambrechies, Lille, Saint-André, Bondue, Marquette',
     description:
-      'Nous sommes basé à Wambrechies, nous nous deplaçons dans un rayon de 30km pour venir vous assister',
+      'Nous sommes basés à Wambrechies, nous nous deplaçons dans un rayon de 30km pour venir vous assister',
     openingHours: 'Mo-Sa',
     telephone: '+666735801',
     email: 'contact@gk-bat.com',
-    image: 'https://seonorth.ca/wp-content/uploads/2020/11/seo-north-logo.png',
+    image: 'https://gk-bat.com/logo.svg',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '9, rue Lamartine',
@@ -46,7 +46,7 @@ function climatisation() {
         <title>GK-BAT - Climatisation</title>
         <meta
           name="description"
-          content="Climatisation à Lille et les environs"
+          content="Installeur de climatisation à wambrechies,Lille, bondue, Marquette, Marcq-en-Baroeuil et les environs"
         />
         <link rel="icon" href="/logo.ico" />
       </Head>
@@ -56,35 +56,26 @@ function climatisation() {
         itemScope
         itemType="https://schema.org/HVACBusiness"
       >
-        <script type="application/ld+json">
-          {JSON.stringify(areaServedData)}
-        </script>
         {/* <Test3D /> */}
         <h1>climatisation</h1>
         <p>
-          <span itemProp="name">GKBAT</span> dispose d’une grande maîtrise des
-          techniques de climatisation. Grâce à ses 10 années d’expériences,
-          votre artisan du bâtiment à
+          <em>GKBAT</em> dispose d’une grande maîtrise des techniques de
+          climatisation. Grâce à ses 10 années d’expériences, votre artisan du
+          bâtiment à
           <span
-            itemProp="areaServed"
+            itemProp="serviceArea"
             itemScope
-            itemType="https://schema.org/Place"
+            itemType="https://schema.org/GeoCircle"
           >
             <span
-              itemProp="geo"
+              itemProp="geoMidpoint"
               itemScope
-              itemType="https://schema.org/GeoCircle"
+              itemType="https://schema.org/GeoCoordinates"
             >
-              <span
-                itemProp="geoMidpoint"
-                itemScope
-                itemType="https://schema.org/GeoCoordinates"
-              >
-                <meta itemProp="latitude" content="50.687949" />
-                <meta itemProp="longitude" content="3.040141" />
-              </span>
-              <meta itemProp="geoRadius" content="30000" />
+              <meta itemProp="latitude" content="50.687949" />
+              <meta itemProp="longitude" content="3.040141" />
             </span>
+            <meta itemProp="geoRadius" content="30000" />
           </span>
           <span
             itemProp="location"
