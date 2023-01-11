@@ -66,7 +66,7 @@ function climatisation() {
           techniques de climatisation. Grâce à ses 10 années d’expériences,
           votre artisan du bâtiment à
           <span
-            itemProp="location"
+            itemProp="areaServed"
             itemScope
             itemType="https://schema.org/Place"
           >
