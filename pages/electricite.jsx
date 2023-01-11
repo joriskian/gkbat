@@ -2,7 +2,6 @@ import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import { ElecSchema } from './components/ElecSchema';
 
 function electricite() {
   return (
@@ -11,7 +10,6 @@ function electricite() {
         <title>GK-BAT - electricité</title>
         <meta name="description" content="Electricity in Lille and around" />
         <link rel="icon" href="/logo.ico" />
-        <ElecSchema />
       </Head>
 
       <div
