@@ -17,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(240, 248, 255, 0.24);
   font-family: 'Roboto', sans-serif;
 }
 .main h1 {
@@ -71,4 +70,17 @@
 
 .artContainer article {
   flex-basis: 500px;
+}
+.imgContainer {
+  z-index: -5;
+  position: fixed;
+  top: 40px;
+  /* max-width: 100%; */
+  width: 150%;
+  height: auto;
+  object-fit: cover;
+}
+.simpleImage {
+  width: 100%;
+  height: auto;
 }

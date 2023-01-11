@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 
 import styles from '../styles/Home.module.css';
 /** importing 3D */
@@ -15,94 +16,81 @@ function domotique() {
       </Head>
 
       <div className={styles.main}>
-        <Camera />
+        {/* <Camera /> */}
         {/* <Test3D /> */}
-        <h1>domotique</h1>
-        <p>Developpement en cours ...</p>
+        <h1>Alarme et domotique</h1>
+        <h2>Artisan à Wambrechies et sa région</h2>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-          delectus voluptatum id, vero numquam repellat atque alias adipisci sed
-          esse quod iure perferendis sit aliquam nulla ex molestias quia
-          officiis. Dicta inventore deserunt quo perferendis optio obcaecati
-          mollitia provident officia adipisci fugit, reprehenderit alias maiores
-          possimus saepe explicabo voluptates itaque? Sunt dolore et, ex porro
-          minima ratione quibusdam obcaecati dicta! Nihil alias perferendis
-          cumque, ea dignissimos eos eligendi necessitatibus tempore, illum
-          delectus adipisci quibusdam minima temporibus rem dolorum culpa.
-          Repudiandae explicabo ab nostrum modi nemo ad commodi quaerat, at
-          delectus. Doloribus obcaecati provident at eius ullam exercitationem
-          quia quo nihil assumenda incidunt. Sed dolorum totam tempora delectus
-          commodi incidunt, autem corporis, in, fugit consequuntur vitae cum
-          facilis magni reiciendis ut. Numquam, at quo ipsam eos magnam optio.
-          Quam, commodi. Ab quisquam facere, nisi debitis amet nihil
-          voluptatibus accusamus quis aspernatur minima iusto inventore, magni
-          quibusdam odio exercitationem quam dignissimos beatae! Laborum
-          doloribus blanditiis ipsam omnis quo pariatur, in animi ab corporis
-          sequi, dolore recusandae modi, iusto porro? Aut commodi aspernatur
-          mollitia error suscipit dicta libero, cupiditate impedit unde, ab
-          itaque? Dicta recusandae cumque dolores fugiat hic iusto odit itaque
-          ab, reprehenderit culpa vel minima a perferendis, blanditiis nobis
-          nemo, quisquam incidunt facilis aut voluptatibus aliquam quis.
-          Voluptas consequatur quibusdam iusto. Ipsa ullam nisi et sit? Hic,
-          eum. Reprehenderit quis sint illo nobis cum, veniam numquam,
-          asperiores fugit ipsum perspiciatis nostrum corrupti. Id dolorum
-          ipsam, suscipit animi odio eligendi quos ut! Animi, quia distinctio!
-          Corporis odio sapiente tempora iusto vitae aut quod nihil deleniti
-          porro unde, placeat eos, eligendi possimus totam adipisci. Alias
-          blanditiis pariatur sequi quo quibusdam facilis cupiditate cumque!
-          Doloribus quam iure, inventore earum sunt laboriosam sed quis, labore
-          tempore dolor quos sequi? Eligendi amet voluptate qui quasi aliquid?
-          Voluptatibus labore reiciendis qui similique sapiente iure doloremque
-          tenetur repellendus. Autem minima quod totam error officiis, aliquid
-          veritatis dolore molestias hic! Sed doloribus libero qui commodi, ut
-          quas enim similique at reiciendis voluptatem perferendis incidunt
-          quaerat eveniet iste magnam aliquam. Voluptas repellat, dolorem ipsum
-          ex recusandae dignissimos corporis rerum quaerat cum minima eius
-          optio. Laboriosam hic in omnis, voluptatem expedita illo alias
-          excepturi ut veniam ab amet vero unde culpa.
+          La domotique consiste à l’installation d’appareils automatisés dans
+          une habitation. Elle vise principalement à l’amélioration du confort
+          et de la sécurité des maisons. Votre artisan du bâtiment à Wambrechies
+          et sa région vous propose son expertise pour le choix, l’installation
+          ou la maintenance de vos équipements domotique et systèmes d’alarme.
         </p>
+        <h2>La sécurité domestique : votre habitation sous alarme</h2>
+        <Image
+          className={styles.simpleImage}
+          placeholder="empty"
+          width="250"
+          height="250"
+          alt="camera de surveillance"
+          src={'/imgs/image-camera.jpg'}
+        />
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
-          delectus voluptatum id, vero numquam repellat atque alias adipisci sed
-          esse quod iure perferendis sit aliquam nulla ex molestias quia
-          officiis. Dicta inventore deserunt quo perferendis optio obcaecati
-          mollitia provident officia adipisci fugit, reprehenderit alias maiores
-          possimus saepe explicabo voluptates itaque? Sunt dolore et, ex porro
-          minima ratione quibusdam obcaecati dicta! Nihil alias perferendis
-          cumque, ea dignissimos eos eligendi necessitatibus tempore, illum
-          delectus adipisci quibusdam minima temporibus rem dolorum culpa.
-          Repudiandae explicabo ab nostrum modi nemo ad commodi quaerat, at
-          delectus. Doloribus obcaecati provident at eius ullam exercitationem
-          quia quo nihil assumenda incidunt. Sed dolorum totam tempora delectus
-          commodi incidunt, autem corporis, in, fugit consequuntur vitae cum
-          facilis magni reiciendis ut. Numquam, at quo ipsam eos magnam optio.
-          Quam, commodi. Ab quisquam facere, nisi debitis amet nihil
-          voluptatibus accusamus quis aspernatur minima iusto inventore, magni
-          quibusdam odio exercitationem quam dignissimos beatae! Laborum
-          doloribus blanditiis ipsam omnis quo pariatur, in animi ab corporis
-          sequi, dolore recusandae modi, iusto porro? Aut commodi aspernatur
-          mollitia error suscipit dicta libero, cupiditate impedit unde, ab
-          itaque? Dicta recusandae cumque dolores fugiat hic iusto odit itaque
-          ab, reprehenderit culpa vel minima a perferendis, blanditiis nobis
-          nemo, quisquam incidunt facilis aut voluptatibus aliquam quis.
-          Voluptas consequatur quibusdam iusto. Ipsa ullam nisi et sit? Hic,
-          eum. Reprehenderit quis sint illo nobis cum, veniam numquam,
-          asperiores fugit ipsum perspiciatis nostrum corrupti. Id dolorum
-          ipsam, suscipit animi odio eligendi quos ut! Animi, quia distinctio!
-          Corporis odio sapiente tempora iusto vitae aut quod nihil deleniti
-          porro unde, placeat eos, eligendi possimus totam adipisci. Alias
-          blanditiis pariatur sequi quo quibusdam facilis cupiditate cumque!
-          Doloribus quam iure, inventore earum sunt laboriosam sed quis, labore
-          tempore dolor quos sequi? Eligendi amet voluptate qui quasi aliquid?
-          Voluptatibus labore reiciendis qui similique sapiente iure doloremque
-          tenetur repellendus. Autem minima quod totam error officiis, aliquid
-          veritatis dolore molestias hic! Sed doloribus libero qui commodi, ut
-          quas enim similique at reiciendis voluptatem perferendis incidunt
-          quaerat eveniet iste magnam aliquam. Voluptas repellat, dolorem ipsum
-          ex recusandae dignissimos corporis rerum quaerat cum minima eius
-          optio. Laboriosam hic in omnis, voluptatem expedita illo alias
-          excepturi ut veniam ab amet vero unde culpa.
+          Aujourd’hui, les évolutions technologiques offrent toute une gamme de
+          solutions destinées à la sécurité domestique. GKBAT vous propose son
+          accompagnement et son savoir-faire dans toute nouvelle installation,
+          remise aux normes ou maintenance de vos installations de sécurité
+          domestique. Nous intervenons notamment dans l’installation et
+          l’entretien de :
         </p>
+        <ul>
+          <li>Alarme domestique,</li>
+          <li>Solutions de sécurité,</li>
+          <li>Alarme connectée,</li>
+          <li>Serrure connectée,</li>
+          <li>Caméra connectée,</li>
+          <li>Système de vidéosurveillance connectée,</li>
+          <li>Détecteurs de mouvement,</li>
+          <li>Alarme anti-intrusion…</li>
+        </ul>
+        <h2>La domotique, pour une maison connectée</h2>
+        <Image
+          className={styles.simpleImage}
+          placeholder="empty"
+          width="250"
+          height="250"
+          alt="detecteur de mouvement"
+          src={'/imgs/image-detection-mouvement.jpg'}
+        />
+        <p>
+          Le principal avantage des produits alarme et domotique, c’est tout
+          d’abord son autonomie et ses fonctionnalités contrôlables à distance.
+          A partir d’un terminal connecté (smartphone, tablette, ordinateur
+          portable…), le propriétaire peut piloter tous les objets ou appareils
+          connectés dans son domicile, y compris les systèmes d’alarme et les
+          appareils électroménagers connectés (frigo, lave-vaisselle,
+          lave-linge, cuisinière, etc.). Chaque appareil connecté est capable
+          d’alerter le propriétaire en cas d’incident ou d’intrusion, par
+          exemple, via un SMS ou un mail. GKBAT vous accompagne et vous
+          conseille dans le choix et l’installation de vos produits alarme et
+          domotique comme :
+        </p>
+        <ul>
+          <li>Détecteur de mouvement et de lumière,</li>
+          <li>Prise connectée,</li>
+          <li>Box domotique,</li>
+          <li>Caméra connectée,</li>
+          <li>Thermostat connecté,</li>
+          <li>Système de vidéosurveillance,</li>
+          <li>Détecteur de fumée ou de gaz,</li>
+          <li>Capteur d’air connecté,</li>
+          <li>Aspirateur connecté,</li>
+          <li>Ampoules connectées,</li>
+          <li>Serrures connectées,</li>
+          <li>Alarmes connectées,</li>
+          <li>Capteurs environnementaux…</li>
+        </ul>
       </div>
     </div>
   );

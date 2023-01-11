@@ -141,11 +141,12 @@ export default function Home() {
           </ul>
         </nav>
         <Image
+          className={styles.imgContainer}
           width="250"
           height="250"
           placeholder="empty"
           alt="1er image"
-          src={'/elec.jpg'}
+          src={'/imgs/installateur-domotique-wambrechies_2.jpg'}
         />
         <p>Pour nous joindre au téléphone : 06 66 73 58 01</p>
       </div>
